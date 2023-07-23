@@ -1,0 +1,19 @@
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\Movie Program.csproj.AssemblyReference.cache
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\Movie_Program.AddMovie.resources
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\Movie_Program.frmMovieProject.resources
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\Movie_Program.Properties.Resources.resources
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\Movie Program.csproj.GenerateResource.cache
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\Movie Program.GeneratedMSBuildEditorConfig.editorconfig
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\Movie Program.AssemblyInfoInputs.cache
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\Movie Program.AssemblyInfo.cs
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\Movie Program.csproj.CoreCompileInputs.cache
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\bin\Debug\net6.0-windows\Movie Program.exe
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\bin\Debug\net6.0-windows\Movie Program.deps.json
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\bin\Debug\net6.0-windows\Movie Program.runtimeconfig.json
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\bin\Debug\net6.0-windows\Movie Program.dll
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\bin\Debug\net6.0-windows\Movie Program.pdb
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\Movie Program.dll
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\refint\Movie Program.dll
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\Movie Program.pdb
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\Movie Program.genruntimeconfig.cache
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\ref\Movie Program.dll

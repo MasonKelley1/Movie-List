@@ -35,6 +35,7 @@
             btnRemove = new Button();
             bindingSource1 = new BindingSource(components);
             btnGetRandom = new Button();
+            btnExit = new Button();
             grpList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             SuspendLayout();
@@ -65,35 +66,49 @@
             btnAdd.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btnAdd.Location = new Point(12, 477);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(177, 42);
+            btnAdd.Size = new Size(116, 42);
             btnAdd.TabIndex = 2;
             btnAdd.Text = "&Add Movie";
             btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += btnAdd_Click;
             // 
             // btnRemove
             // 
             btnRemove.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnRemove.Location = new Point(195, 477);
+            btnRemove.Location = new Point(134, 477);
             btnRemove.Name = "btnRemove";
-            btnRemove.Size = new Size(147, 42);
+            btnRemove.Size = new Size(127, 42);
             btnRemove.TabIndex = 3;
             btnRemove.Text = "&Remove Movie";
             btnRemove.UseVisualStyleBackColor = true;
             // 
             // btnGetRandom
             // 
-            btnGetRandom.Location = new Point(348, 477);
+            btnGetRandom.Location = new Point(267, 477);
             btnGetRandom.Name = "btnGetRandom";
             btnGetRandom.Size = new Size(104, 42);
             btnGetRandom.TabIndex = 4;
             btnGetRandom.Text = "&Click to get random movie";
             btnGetRandom.UseVisualStyleBackColor = true;
             // 
+            // btnExit
+            // 
+            btnExit.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
+            btnExit.Location = new Point(377, 477);
+            btnExit.Name = "btnExit";
+            btnExit.Size = new Size(75, 42);
+            btnExit.TabIndex = 5;
+            btnExit.Text = "E&xit";
+            btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
+            // 
             // frmMovieProject
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            CancelButton = btnExit;
             ClientSize = new Size(457, 519);
+            Controls.Add(btnExit);
             Controls.Add(btnGetRandom);
             Controls.Add(btnAdd);
             Controls.Add(btnRemove);
@@ -116,5 +131,6 @@
         private Button btnAdd;
         private BindingSource bindingSource1;
         private Button btnGetRandom;
+        private Button btnExit;
     }
 }
