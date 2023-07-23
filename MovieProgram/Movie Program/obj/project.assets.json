@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MovieProject\\Movie Program\\Movie Program\\Movie Program.csproj",
+      "projectUniqueName": "E:\\MovieProject\\Movie-Project\\MovieProgram\\Movie Program\\Movie Program.csproj",
       "projectName": "Movie Program",
-      "projectPath": "E:\\MovieProject\\Movie Program\\Movie Program\\Movie Program.csproj",
+      "projectPath": "E:\\MovieProject\\Movie-Project\\MovieProgram\\Movie Program\\Movie Program.csproj",
       "packagesPath": "C:\\Users\\Mason\\.nuget\\packages\\",
-      "outputPath": "E:\\MovieProject\\Movie Program\\Movie Program\\obj\\",
+      "outputPath": "E:\\MovieProject\\Movie-Project\\MovieProgram\\Movie Program\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mason\\AppData\\Roaming\\NuGet\\NuGet.Config",

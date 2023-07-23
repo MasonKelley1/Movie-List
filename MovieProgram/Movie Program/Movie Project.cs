@@ -1,8 +1,8 @@
 namespace Movie_Program
 {
-    public partial class Form1 : Form
+    public partial class frmMovieProject : Form
     {
-        public Form1()
+        public frmMovieProject()
         {
             InitializeComponent();
         }
