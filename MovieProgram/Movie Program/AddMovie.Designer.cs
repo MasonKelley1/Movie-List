@@ -82,6 +82,6 @@
         #endregion
         private Button btnAddMovie;
         private Button btnCancel;
-        public RichTextBox rtbMovies;
+        private RichTextBox rtbMovies;
     }
 }

@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.VisualBasic;
 
 namespace Movie_Program
 {
@@ -27,7 +28,14 @@ namespace Movie_Program
 
         private void btnAddMovie_Click(object sender, EventArgs e)
         {
+            using (StreamWriter sw = File.AppendText(@"E:\\movies to watch.txt"))
+            {
+                sw.WriteLine(rtbMovies.Text);
+            }
 
+            Form movieProject = new frmMovieProject();
+            this.Close();
+            movieProject.ShowDialog();
         }
     }
 }
