@@ -81,6 +81,7 @@
             btnRemove.TabIndex = 3;
             btnRemove.Text = "&Remove Movie";
             btnRemove.UseVisualStyleBackColor = true;
+            btnRemove.Click += btnRemove_Click;
             // 
             // btnGetRandom
             // 

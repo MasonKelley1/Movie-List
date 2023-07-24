@@ -17,3 +17,4 @@ E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-window
 E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\Movie Program.pdb
 E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\Movie Program.genruntimeconfig.cache
 E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\ref\Movie Program.dll
+E:\MovieProject\Movie-Project\MovieProgram\Movie Program\obj\Debug\net6.0-windows\Movie_Program.RemoveMovie.resources

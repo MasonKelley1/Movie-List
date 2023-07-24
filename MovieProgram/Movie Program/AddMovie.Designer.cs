@@ -31,6 +31,7 @@
             rtbMovies = new RichTextBox();
             btnAddMovie = new Button();
             btnCancel = new Button();
+            lblWarning = new Label();
             SuspendLayout();
             // 
             // rtbMovies
@@ -63,12 +64,23 @@
             btnCancel.UseVisualStyleBackColor = true;
             btnCancel.Click += btnCancel_Click;
             // 
+            // lblWarning
+            // 
+            lblWarning.BorderStyle = BorderStyle.Fixed3D;
+            lblWarning.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            lblWarning.Location = new Point(12, 209);
+            lblWarning.Name = "lblWarning";
+            lblWarning.Size = new Size(354, 32);
+            lblWarning.TabIndex = 3;
+            lblWarning.Text = "NOTE: Each movie must be input on its own line. After entering movie, press enter to skip to next line and type next movie\r\n";
+            // 
             // AddMovie
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             CancelButton = btnCancel;
-            ClientSize = new Size(378, 218);
+            ClientSize = new Size(378, 249);
+            Controls.Add(lblWarning);
             Controls.Add(btnCancel);
             Controls.Add(btnAddMovie);
             Controls.Add(rtbMovies);
@@ -83,5 +95,6 @@
         private Button btnAddMovie;
         private Button btnCancel;
         private RichTextBox rtbMovies;
+        private Label lblWarning;
     }
 }
