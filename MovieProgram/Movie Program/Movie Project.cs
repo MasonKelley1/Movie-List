@@ -7,6 +7,8 @@ namespace Movie_Program
             InitializeComponent();
         }
 
+        public List<string> movieList = new List<string>();
+
         private void btnAdd_Click(object sender, EventArgs e)
         {
             var newMov = new AddMovie();

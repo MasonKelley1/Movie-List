@@ -126,11 +126,11 @@
         #endregion
 
         private GroupBox grpList;
-        private ListBox lstMovieList;
         private Button btnRemove;
         private Button btnAdd;
         private BindingSource bindingSource1;
         private Button btnGetRandom;
         private Button btnExit;
+        private ListBox lstMovieList;
     }
 }

@@ -16,5 +16,17 @@ namespace Movie_Program
         {
             InitializeComponent();
         }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Form movieProject = new frmMovieProject();
+            this.Close();
+            movieProject.ShowDialog();
+        }
+
+        private void btnAddMovie_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
