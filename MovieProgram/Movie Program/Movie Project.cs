@@ -4,32 +4,25 @@ namespace Movie_Program
     {
         String line;
         int lineNum = 1;
+
+        public void ReadFromTextFile()
+        {
+            string fileName = "E:\\movies to watch.txt";
+            List<string> lines = File.ReadAllLines(fileName).ToList();
+
+            foreach (string Item in lines)
+            {
+                lstMovieList.Items.Add(lineNum + "- " + Item);
+
+                lineNum++;
+            }
+        }
+
         public frmMovieProject()
         {
             InitializeComponent();
 
-            try
-            {
-                StreamReader sr = new StreamReader("E:\\movies to watch.txt");
-
-                line = sr.ReadLine();
-
-                while (line != null)
-                {
-
-                    lstMovieList.Items.Add(lineNum.ToString() + line);
-                    lineNum += 1;
-
-                    line = sr.ReadLine();
-                }
-
-                sr.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            ReadFromTextFile();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
